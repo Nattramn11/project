@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<title>saraksts ar kalkulatoru</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>saraksts ar kalkulatoru</h1>
+<p>Ieraksti ko tev vajag izdarīt šodien un skaties produktivitāti pēc formulas!</p>
+
+<div class="input-block">
+<input type="text" id="taskInput" placeholder="...">
+<button onclick="pievienotUzdevumu()">Pievienot</button>
+</div>
+
+<ul id="taskList"></ul>
+
+<div class="kalkulators">
+<h3>Mana produktivitāte (Formula: (Izdarīti / Kopā) * 100):</h3>
+<div id="result">Nav uzdevumu, atpūties!</div>
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
